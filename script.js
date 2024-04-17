@@ -122,7 +122,7 @@ function handleNextButton(){
 
 function gohome()
 {
-window.location=""
+window.location="https://cityutestwebsite.github.io/CS1102_G21/"
 }
 
 nextButton.addEventListener("click", ()=>{
