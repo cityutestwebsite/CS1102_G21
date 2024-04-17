@@ -268,7 +268,7 @@ p {
 /* Background */
 #background .background {
 	flex-direction: column-reverse;
-	text-align: center;
+	text-align: justify;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
