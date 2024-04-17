@@ -122,14 +122,14 @@ function handleNextButton(){
 
 function gohome()
 {
-window.location="https://cityutestwebsite.github.io/CS1102_G21/"
+window.history.back();
 }
 
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.length){
         handleNextButton();
     }else{
-        gohome();
+        gohome()
     }
 })
 
