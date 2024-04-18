@@ -532,7 +532,6 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	transition: 0.3s ease box-shadow;
 }
 
 /*End Quiz Section */
