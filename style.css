@@ -532,7 +532,6 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	box-shadow: 0px 0px 18px 0 #0000002c;
 	transition: 0.3s ease box-shadow;
 }
 
