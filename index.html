@@ -199,8 +199,37 @@
     <div class="efficiency container">
       <div class="col-right">
         <h1 class="section-title"><span>E</span>fficiency</h1>
-        <h2>We are a group of students at City University of Hong Kong</h2>
-        <p>We produce this website to demonstrate our skills in coding in HTML and CSS. Explaining the knowledge about different sorting methods and sharing the experiences with others.</p>
+     <h2>Effectiveness</h2>
+
+<h3>Internal Sorting Algorithms</h3>
+<p>The effectiveness of internal sorting algorithms can be evaluated based on these following factors:</p>
+<ol>
+<li>Time Complexity: The efficiency of internal sorting algorithms is often measured by their time complexity. Algorithms with lower time complexity, such as O(n log n) for quicksort or merge sort, are considered more effective as they can handle large datasets efficiently.</li>
+<li>Space Complexity: Internal sorting algorithms are expected to use a minimal amount of extra space. Algorithms that do not require additional space allocation aside from the input array are preferred.</li>
+<li>Stability: Stability refers to maintaining the relative order of equal elements in the sorted output. Effective internal sorting algorithms should preserve the order of elements with the same value.</li>
+<li>Adaptability: Some internal sorting algorithms can adapt their behaviour based on the initial order of the input data. Adaptive algorithms can perform better when the data is partially sorted.</li>
+<li>Ease of Implementation: The ease of understanding and implementing an internal sorting algorithm is also a factor in its effectiveness. Algorithms that are clear and straightforward are often preferred in practice.</li>
+</ol>
+
+<h3>External Sorting Algorithms</h3>
+<p>The effectiveness of external sorting algorithms is evaluated based on these following factors:</p>
+<ol>
+<li>I/O Efficiency: Since external sorting involves frequent read and write operations to disk, the efficiency of I/O operations is crucial. Effective external sorting algorithms minimize the number of disk accesses and optimize data transfer between internal memory and external storage.</li>
+<li>Time Complexity: The time complexity of external sorting algorithms is influenced by the number of disk accesses and the efficiency of merge operations. Algorithms with lower time complexity, such as O(n log n) for external merge sort, are considered more effective in handling large datasets.</li>
+<li>Space Complexity: While external sorting algorithms require additional space in external storage, effective algorithms aim to minimize the space overhead and make efficient use of available disk space.</li>
+<li>Scalability: The effectiveness of external sorting algorithms is often assessed based on their ability to scale to large datasets. Algorithms that can efficiently handle varying data sizes and adapt to different disk configurations are preferred.</li>
+<li>Fault Tolerance: Since disk operations are prone to errors and failures, effective external sorting algorithms should incorporate mechanisms for error handling, recovery, and fault tolerance to ensure data integrity.</li>
+</ol>
+
+<h3>Stable Sorting Algorithms</h3>
+<p>The effectiveness of stable sorting algorithms is evaluated based on these following factors:</p>
+<ol>
+<li>Preservation of Order: The primary advantage of stable sorting algorithms is their ability to preserve the order of elements with equal keys. This characteristic is useful in scenarios where maintaining the original order of equal elements is important.</li>
+<li>Applications: Stable sorting is particularly useful in situations where the original order of equivalent elements carries significance, such as sorting a list of people based on their arrival time or sorting records based on multiple keys.</li>
+<li>Predictability: Stable sorting algorithms provide predictable outcomes, ensuring that the sorting results remain consistent even for identical keys.</li>
+<li>Merge Operations: Certain sorting algorithms, such as merge sort, can be implemented to be stable. The effectiveness of stable sorting can be evaluated based on the efficiency of merge operations while maintaining stability.</li>
+</ol>
+
       </div>
     </div>
   </section>
